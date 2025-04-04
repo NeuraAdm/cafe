@@ -38,8 +38,8 @@ export default function Gallery() {
       alt: "Omelette",
     },
     {
-      src: "/8.jpeg?height=600&width=800",
-      alt: "Calentado",
+      src: "/17.jpeg?height=600&width=800",
+      alt: "Arepa de Queso",
     },
     {
       src: "/9.jpeg?height=600&width=800",

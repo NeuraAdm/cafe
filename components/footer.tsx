@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Facebook, Instagram, Twitter, Coffee, Beer } from "lucide-react"
+import { Facebook, Instagram, CircleFadingPlus, Coffee, Beer } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -18,17 +18,17 @@ export default function Footer() {
           </div>
 
           <div className="flex space-x-4">
-            <Link href="#" className="bg-cream/10 hover:bg-cream/20 text-cream p-3 rounded-full transition-colors">
+            <Link href="https://www.facebook.com/profile.php?id=61574731992976" className="bg-cream/10 hover:bg-cream/20 text-cream p-3 rounded-full transition-colors">
               <Facebook className="h-6 w-6" />
               <span className="sr-only">Facebook</span>
             </Link>
-            <Link href="#" className="bg-cream/10 hover:bg-cream/20 text-cream p-3 rounded-full transition-colors">
+            <Link href="https://www.instagram.com/cafe.el.reloj/" className="bg-cream/10 hover:bg-cream/20 text-cream p-3 rounded-full transition-colors">
               <Instagram className="h-6 w-6" />
               <span className="sr-only">Instagram</span>
             </Link>
-            <Link href="#" className="bg-cream/10 hover:bg-cream/20 text-cream p-3 rounded-full transition-colors">
-              <Twitter className="h-6 w-6" />
-              <span className="sr-only">Twitter</span>
+            <Link href="https://www.tiktok.com/@cafeelreloj" className="bg-cream/10 hover:bg-cream/20 text-cream p-3 rounded-full transition-colors">
+              <CircleFadingPlus className="h-6 w-6" />
+              <span className="sr-only">Tiktok</span>
             </Link>
           </div>
         </div>
